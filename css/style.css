@@ -448,8 +448,8 @@ pre {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
@@ -8163,10 +8163,10 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
   font-weight: 400;
-  font-family: "Poppins", Arial, sans-serif; }
+  font-family: "Helvetica Neue", Arial, sans-serif; }
 
 .ftco-section {
-  padding: 7em 0; }
+  padding: 3em 0; }
 
 .ftco-no-pt {
   padding-top: 0; }
@@ -8175,7 +8175,8 @@ h1, h2, h3, h4, h5,
   padding-bottom: 0; }
 
 .heading-section {
-  font-size: 28px; }
+  font-size: 20px;
+  color: #423A35 }
 
 .img {
   background-size: cover;
@@ -8266,10 +8267,11 @@ h1, h2, h3, h4, h5,
       background: #000;
       opacity: .3; }
   .work .text h2 {
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 200;
     color: #fff;
-    text-transform: uppercase; }
+    position: bottom;
+    text-transform:; }
     @media (max-width: 991.98px) {
       .work .text h2 {
         font-size: 40px; } }
