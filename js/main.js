@@ -37,7 +37,7 @@
 
   owl.on('changed.owl.carousel', function(event) {
       $('.thumbnail li').removeClass('active');
-      $('.thumbnail li').eq(event.item.index - 2).addClass('active');
+      $('.thumbnail li').eq(event.item.index - 3).addClass('active');
   })
 
 })(jQuery);
